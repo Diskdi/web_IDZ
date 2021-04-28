@@ -1,0 +1,87 @@
+body {
+     background-color: #AAF593; 
+     background-position: cover;
+     font-family: Tahoma;
+}
+
+header {
+     text-align: center;
+     width: 100%;
+     font-size: 15px;
+     background-color: white;
+      
+}
+
+#container {
+     /*основной контент сайта*/ 
+     /*background: black;*/
+     margin: auto;
+     width: 65%; /*ширина самого контейнера*/
+     font-family: Calibry;
+}
+ 
+/* отдельный класс для навигации по сайту 
+#navigation {
+     background: #FE9798;
+     width: 100%;
+     font-size: 16px;
+}*/
+ 
+#content {
+     background: #EAE8E2;
+     width: 100%;/*процент по ширине*/
+     height: 250vh;/*размер по высоте контента*/
+     font-family: Times new Roman;
+     right: 0px;
+
+}
+#pic1{
+     width: 350px;
+     height: 250px;  
+     margin: 0px 10px 10px 15px;
+}
+
+#text1{
+     font-size: 20px;
+}
+
+#klassiv{
+     color: black;
+     margin-left: 15px;
+}
+#hr {/*стиль для линий*/
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: grey; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+    width: 50%
+}
+#text2{
+     font-size: 19px;
+     margin: 15px 15px 10px 15px;
+}
+#spisosok{ /*киркоровый список*/
+     margin: 10px 50px 10px 50px;
+     font-size: 17px;
+     background-color: aquamarine;
+}
+
+#nacvay{/*названаие цветошков*/
+     font-family: FF Kava;
+     margin-left: 15px;
+}
+#dractext{ /*драцена текст*/
+          font-size: 19px;
+          margin: 0px 0px 10px 15px;/*верх право низ лево*/
+          text-align: left;
+}
+#pic2{/*драцена картинка*/
+     width: 350px;
+     height: 250px;  
+     margin: 0px 10px 15px 10px;/*верх право низ лево*/
+}
+
+#footer {/*низ сайта*/
+    background: #00BFFF;
+	width: 100%;
+	height: 40px;
+}
